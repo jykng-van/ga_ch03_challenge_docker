@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: https://github.com/jykng-van/ga_ch03_challenge_python/.github/workflows/python-app.yml
+    uses: https://github.com/jykng-van/ga_ch03_challenge_python/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
